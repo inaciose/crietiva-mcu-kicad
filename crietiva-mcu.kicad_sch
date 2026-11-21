@@ -4346,7 +4346,7 @@
 		)
 		(uuid "cd4309a4-47b3-47df-9b47-518777fa53ef")
 	)
-	(text "BUTÃO"
+	(text "BOTÃO"
 		(exclude_from_sim no)
 		(at 176.53 127 0)
 		(effects
