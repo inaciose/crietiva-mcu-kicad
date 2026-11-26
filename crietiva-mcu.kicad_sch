@@ -5,7 +5,7 @@
 	(uuid "0d35483a-0b12-46cc-b9f2-896fd6831779")
 	(paper "A4")
 	(title_block
-		(date "sam. 04 avril 2015")
+		(date "2026-11-26")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
@@ -499,7 +499,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -509,25 +509,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -10.16 29.21 0)
+				(at 0 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle"
-				(at 10.16 29.21 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -552,7 +550,7 @@
 					)
 				)
 			)
-			(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -563,7 +561,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus type-C full-featured"
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -585,10 +583,10 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
-					(start -0.254 -35.56)
-					(end 0.254 -34.544)
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
 					(stroke
 						(width 0)
 						(type default)
@@ -598,41 +596,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 25.654)
-					(end 9.144 25.146)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 20.574)
-					(end 9.144 20.066)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 18.034)
-					(end 9.144 17.526)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 12.954)
-					(end 9.144 12.446)
+					(start 10.16 15.494)
+					(end 9.144 14.986)
 					(stroke
 						(width 0)
 						(type default)
@@ -664,8 +629,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 5.334)
-					(end 9.144 4.826)
+					(start 10.16 2.794)
+					(end 9.144 2.286)
 					(stroke
 						(width 0)
 						(type default)
@@ -697,8 +662,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -7.366)
-					(end 9.144 -7.874)
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
 					(stroke
 						(width 0)
 						(type default)
@@ -708,8 +673,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -9.906)
-					(end 9.144 -10.414)
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
 					(stroke
 						(width 0)
 						(type default)
@@ -729,66 +694,11 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 10.16 -17.526)
-					(end 9.144 -18.034)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -22.606)
-					(end 9.144 -23.114)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -25.146)
-					(end 9.144 -25.654)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -30.226)
-					(end 9.144 -30.734)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -32.766)
-					(end 9.144 -33.274)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "USB_C_Receptacle_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
-					(start -10.16 27.94)
-					(end 10.16 -35.56)
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -904,8 +814,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "USB_C_Receptacle_1_1"
 				(circle
 					(center -2.54 1.143)
 					(radius 0.635)
@@ -987,8 +895,10 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1005,44 +915,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "TX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "TX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
 						(effects
@@ -1060,7 +934,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 20.32 180)
+					(at 15.24 10.16 180)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -1078,7 +952,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -1096,7 +970,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 12.7 180)
+					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -1114,7 +988,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -30.48 180)
+					(at 15.24 -12.7 180)
 					(length 5.08)
 					(name "SBU1"
 						(effects
@@ -1132,7 +1006,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1150,44 +1024,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "RX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -17.78 180)
-					(length 5.08)
-					(name "RX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1206,7 +1044,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1224,44 +1062,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -25.4 180)
-					(length 5.08)
-					(name "TX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -22.86 180)
-					(length 5.08)
-					(name "TX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1280,7 +1082,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 17.78 180)
+					(at 15.24 7.62 180)
 					(length 5.08)
 					(name "CC2"
 						(effects
@@ -1298,7 +1100,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 5.08 180)
+					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -1316,7 +1118,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 10.16 180)
+					(at 15.24 0 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -1334,7 +1136,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -33.02 180)
+					(at 15.24 -15.24 180)
 					(length 5.08)
 					(name "SBU2"
 						(effects
@@ -1352,7 +1154,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1370,44 +1172,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "RX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "RX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1426,7 +1192,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -40.64 90)
+					(at -7.62 -22.86 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -4431,13 +4197,25 @@
 		(uuid "48f50e6e-798c-4903-a86f-6ff4ee3f2d3a")
 	)
 	(junction
+		(at 114.3 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "604623d6-fa59-4ce5-ac04-cccd9d24aac9")
+	)
+	(junction
+		(at 114.3 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63acf6a8-e230-4af9-bedd-ccedcc09aeff")
+	)
+	(junction
 		(at 120.65 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "686c571a-f620-4cbf-8fbf-285e1d9d2281")
 	)
 	(junction
-		(at 210.82 102.87)
+		(at 210.82 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69528e6c-f5b4-4df7-a424-c4360094931d")
@@ -4479,6 +4257,12 @@
 		(uuid "bddd36ff-e8f1-48df-844e-835a58cfc21a")
 	)
 	(junction
+		(at 114.3 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdf2def5-e4d5-4e20-8a9f-660661c38411")
+	)
+	(junction
 		(at 81.28 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4507,6 +4291,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6415559-9e08-4293-8ffc-3293bc3d66a9")
+	)
+	(junction
+		(at 114.3 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6877d85-45ba-46e4-b200-1f1f89a708b7")
 	)
 	(wire
 		(pts
@@ -4600,7 +4390,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 194.31) (xy 115.57 194.31)
+			(xy 97.79 194.31) (xy 114.3 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4630,7 +4420,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 167.64) (xy 115.57 167.64)
+			(xy 97.79 167.64) (xy 114.3 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4740,7 +4530,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 176.53) (xy 115.57 176.53)
+			(xy 97.79 176.53) (xy 114.3 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4810,7 +4600,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 101.6) (xy 210.82 102.87)
+			(xy 210.82 73.66) (xy 210.82 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4930,7 +4720,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 102.87) (xy 210.82 104.14)
+			(xy 210.82 74.93) (xy 210.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4990,7 +4780,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 185.42) (xy 115.57 185.42)
+			(xy 97.79 185.42) (xy 114.3 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5060,6 +4850,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 176.53) (xy 115.57 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734b968e-da98-4d47-bfe2-655106c727dd")
+	)
+	(wire
+		(pts
 			(xy 90.17 48.26) (xy 140.97 48.26)
 		)
 		(stroke
@@ -5090,7 +4890,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 102.87) (xy 203.2 102.87)
+			(xy 210.82 74.93) (xy 203.2 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5290,7 +5090,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 102.87) (xy 203.2 101.6)
+			(xy 203.2 74.93) (xy 203.2 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5450,6 +5250,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 185.42) (xy 115.57 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7cfe31-289f-4a7b-9ec5-15c60a53892a")
+	)
+	(wire
+		(pts
 			(xy 57.15 80.01) (xy 69.85 80.01)
 		)
 		(stroke
@@ -5467,6 +5277,16 @@
 			(type default)
 		)
 		(uuid "c17ef37a-d143-4501-a212-58ac98b2424f")
+	)
+	(wire
+		(pts
+			(xy 114.3 167.64) (xy 115.57 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3062f1b-0289-4fda-b2eb-80e278f55580")
 	)
 	(wire
 		(pts
@@ -5707,6 +5527,16 @@
 			(type default)
 		)
 		(uuid "f4f06db4-a210-421b-90fb-052c7461ae63")
+	)
+	(wire
+		(pts
+			(xy 114.3 194.31) (xy 115.57 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51b13a9-146f-4d93-b4e1-da9d85b47553")
 	)
 	(wire
 		(pts
@@ -6347,6 +6177,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 210.82 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09873b66-ebc1-40ba-9c24-583b8dc72b8f")
+		(property "Reference" "J1"
+			(at 210.82 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 210.82 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+			(at 214.63 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 214.63 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 210.82 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SH"
+			(uuid "352b9769-8936-4d12-a608-8aaaa9a3701e")
+		)
+		(pin "A1"
+			(uuid "ca9810b5-13f3-4c9c-b227-540e0c29c54b")
+		)
+		(pin "A4"
+			(uuid "97e30de0-bbd7-4192-9856-0aae28dde8b4")
+		)
+		(pin "A5"
+			(uuid "baf05b6d-2f0c-4220-9379-cf4acfce0521")
+		)
+		(pin "A6"
+			(uuid "0d234839-05ec-49d4-ba1d-1b9c3df54f36")
+		)
+		(pin "A7"
+			(uuid "479a8808-027d-40c9-8f9b-dd1086296f29")
+		)
+		(pin "A8"
+			(uuid "16506b82-e964-4b9a-bb4d-1e617e0244d4")
+		)
+		(pin "A9"
+			(uuid "6be6d9e3-ef5a-469c-b1e0-7f8b7e9d7fd3")
+		)
+		(pin "A12"
+			(uuid "097fdaea-21e8-42f4-94b3-c793284ead1a")
+		)
+		(pin "B1"
+			(uuid "db51371c-cedc-4bc1-88f1-ab66632c8421")
+		)
+		(pin "B4"
+			(uuid "267b6fd4-b054-4a29-aa24-54881c5d400e")
+		)
+		(pin "B5"
+			(uuid "ef2d73f3-07e9-4e08-abac-2fb7d3c7a7c3")
+		)
+		(pin "B6"
+			(uuid "d2815c01-9a18-4ce4-bdca-13b46bdc801e")
+		)
+		(pin "B7"
+			(uuid "7a81780b-eee7-4ce1-a1b4-bdde170de85a")
+		)
+		(pin "B8"
+			(uuid "afc97f01-2ffa-41d4-a09a-89fe08a134d7")
+		)
+		(pin "B9"
+			(uuid "76a795ff-297f-4045-bbba-174e9785d9c2")
+		)
+		(pin "B12"
+			(uuid "bf74e1cd-d073-4732-a74a-99aa9d3d2314")
+		)
+		(instances
+			(project "crietiva-mcu"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 36.83 0)
 		(unit 1)
@@ -6380,7 +6335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 79.502 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6423,6 +6378,84 @@
 			(project "crietiva-mcu"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 167.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "116d17dd-36af-4b4d-a54b-bd71756d8d9e")
+		(property "Reference" "J7"
+			(at 118.745 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+			(at 119.38 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "712d20ef-e82a-4a12-a63c-362e0abe9756")
+		)
+		(instances
+			(project "crietiva-mcu"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6542,7 +6575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_\nP10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 160.528 90)
 			(hide yes)
 			(show_name no)
@@ -6585,84 +6618,6 @@
 			(project "crietiva-mcu"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 119.38 133.35 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1daf0e02-5658-4e68-905b-0c0a30d125c9")
-		(property "Reference" "J3"
-			(at 118.745 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 118.745 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 119.38 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 119.38 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5cbb21df-ac95-48a9-b3ba-412df366a6f0")
-		)
-		(instances
-			(project "crietiva-mcu"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7086,83 +7041,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 119.38 140.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "366cf2ad-2bf2-4bf3-8e8c-4c5a5a3f6138")
-		(property "Reference" "J4"
-			(at 118.745 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 118.745 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 119.38 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 119.38 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ee403eb-5c5c-43d6-afa0-248eb5e5d22a")
-		)
-		(instances
-			(project "crietiva-mcu"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 41.91 142.24 0)
 		(unit 1)
@@ -7414,10 +7292,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b9782ca-9180-488f-b77b-0ff1e5b6ad08")
 		(property "Reference" "R1"
-			(at 245.11 34.925 90)
+			(at 245.11 35.814 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7427,7 +7304,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 245.11 37.465 90)
+			(at 245.11 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7436,7 +7313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 245.11 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -7479,84 +7356,6 @@
 			(project "crietiva-mcu"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 120.65 194.31 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57735798-51d5-40c7-a20e-629a8f8d396e")
-		(property "Reference" "J10"
-			(at 120.015 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 120.015 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 120.65 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 120.65 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "453f1671-fdfc-47a0-8be6-ae8570fde9ad")
-		)
-		(instances
-			(project "crietiva-mcu"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7812,7 +7611,7 @@
 		(dnp no)
 		(uuid "67d1cd1f-d22a-41c5-8b28-9c7578ad3914")
 		(property "Reference" "R2"
-			(at 245.11 37.465 90)
+			(at 244.856 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7831,7 +7630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 245.11 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -7874,162 +7673,6 @@
 			(project "crietiva-mcu"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 119.38 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c7f4f85-8944-478e-9120-0a69dcf16dbc")
-		(property "Reference" "J5"
-			(at 118.745 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 118.745 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 119.38 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 119.38 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9119ec32-6612-48d8-bd95-0ece40a5a807")
-		)
-		(instances
-			(project "crietiva-mcu"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 120.65 167.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73b3e45f-f66a-4989-9784-e03de6aea3b4")
-		(property "Reference" "J7"
-			(at 120.015 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 120.015 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 120.65 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 120.65 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b65649cf-09d5-4911-bc72-8e9e85fde424")
-		)
-		(instances
-			(project "crietiva-mcu"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8202,6 +7845,84 @@
 			(project "crietiva-mcu"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 185.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa16471-d866-4653-8298-d53d6fe2b11f")
+		(property "Reference" "J9"
+			(at 118.745 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+			(at 119.38 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f235b59-f5f6-4b91-a99b-bdb5c61efcd5")
+		)
+		(instances
+			(project "crietiva-mcu"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8517,7 +8238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_\nP10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 165.862 90)
 			(hide yes)
 			(show_name no)
@@ -8648,84 +8369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 119.38 158.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fec9e7e-bc71-418e-b1d3-f2f4270f81f3")
-		(property "Reference" "J6"
-			(at 118.745 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 118.745 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 119.38 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 119.38 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1dd62e9f-2497-4b88-895f-eca70e9e7a8a")
-		)
-		(instances
-			(project "crietiva-mcu"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_Dual")
 		(at 175.26 142.24 0)
 		(unit 1)
@@ -8812,86 +8455,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 120.65 185.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9321b966-956d-4cd3-bd8b-2a92960cdcce")
-		(property "Reference" "J9"
-			(at 120.015 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 120.015 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 120.65 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 120.65 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77ec4a74-2ef8-4e9d-aa30-117e1b5a56c9")
-		)
-		(instances
-			(project "crietiva-mcu"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 210.82 104.14 0)
+		(at 210.82 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8902,7 +8467,7 @@
 		(fields_autoplaced yes)
 		(uuid "932cf503-5741-4266-aa14-8c87971e9e51")
 		(property "Reference" "#PWR016"
-			(at 210.82 110.49 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +8478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 109.22 0)
+			(at 210.82 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8923,7 +8488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 104.14 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8934,7 +8499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 104.14 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8945,7 +8510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 104.14 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,6 +8527,84 @@
 			(project "crietiva-mcu"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a07fcd6a-c822-49ff-9c57-eb1a493c4849")
+		(property "Reference" "J3"
+			(at 118.745 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+			(at 119.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75f4aa74-1ff1-4122-b95c-9cb702217f71")
+		)
+		(instances
+			(project "crietiva-mcu"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9001,7 +8644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 69.342 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -9050,8 +8693,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle")
-		(at 210.82 60.96 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 158.75 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9060,9 +8704,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aad567d4-e6ff-4cff-9e10-32322b03c783")
-		(property "Reference" "J1"
-			(at 210.82 27.94 0)
+		(uuid "a6193a08-f1ad-4c89-8e48-6d6bf3a04f2d")
+		(property "Reference" "J6"
+			(at 118.745 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9071,8 +8715,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle"
-			(at 210.82 30.48 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9081,8 +8725,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
-			(at 214.63 60.96 0)
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+			(at 119.38 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9092,8 +8736,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 214.63 60.96 0)
+		(property "Datasheet" ""
+			(at 119.38 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9103,8 +8747,8 @@
 				)
 			)
 		)
-		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 210.82 60.96 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9114,85 +8758,13 @@
 				)
 			)
 		)
-		(pin "B8"
-			(uuid "85878018-9da2-47fc-80a1-1dd132b61eeb")
-		)
-		(pin "A3"
-			(uuid "19ede419-3b06-4722-a6b2-f45575ef7e2e")
-		)
-		(pin "B12"
-			(uuid "ac37ff30-acf0-4d60-8401-dde4b238f2b0")
-		)
-		(pin "A4"
-			(uuid "0f4e0a8a-6581-422a-95cc-5b6e2d95896a")
-		)
-		(pin "B5"
-			(uuid "b2c7933a-5c9b-4b60-9709-73cc1f3af839")
-		)
-		(pin "A2"
-			(uuid "1cbd678c-812d-493a-807c-956d66cd0bb8")
-		)
-		(pin "A1"
-			(uuid "732db9ea-962f-4e5c-9691-dbd7e683302c")
-		)
-		(pin "SH"
-			(uuid "a0164c4b-1780-4a4b-b027-1faeb23a9831")
-		)
-		(pin "A5"
-			(uuid "1f11d2dd-5ee5-4405-bc20-1d59dc55d9ee")
-		)
-		(pin "B9"
-			(uuid "55b3a322-2bb6-4a69-a260-2e01ea90137d")
-		)
-		(pin "B6"
-			(uuid "25675803-1651-4aab-ae25-4e09b82511b2")
-		)
-		(pin "A6"
-			(uuid "6e392f66-d027-4888-8a9b-98edff6f37cd")
-		)
-		(pin "A7"
-			(uuid "c55f9116-2048-4364-b035-2a38e18eb611")
-		)
-		(pin "A10"
-			(uuid "c99a1347-ebaf-4039-8349-dc64f80e7aad")
-		)
-		(pin "A11"
-			(uuid "22dfdd4c-ded1-42e3-b9c5-0be54b56d6dc")
-		)
-		(pin "B10"
-			(uuid "9243fbcc-6303-4db3-b18b-dc761d372721")
-		)
-		(pin "A8"
-			(uuid "6d918f50-4905-4723-9ecc-e28b04d16829")
-		)
-		(pin "A9"
-			(uuid "b0658c97-7030-41cb-98d7-ef4758a8baeb")
-		)
-		(pin "B1"
-			(uuid "d92f3972-8ebf-4bdb-a6ff-384c51f4333c")
-		)
-		(pin "B2"
-			(uuid "288de60d-852a-4d9c-9b4c-8049c4cc77a5")
-		)
-		(pin "B3"
-			(uuid "06122b7c-778d-4c86-9525-09a5ddb32ecb")
-		)
-		(pin "B4"
-			(uuid "a19b391b-6532-4ffe-8344-19ca7221b326")
-		)
-		(pin "B7"
-			(uuid "2afdcb65-e60d-499e-8c14-c2b2c8e9b4a6")
-		)
-		(pin "A12"
-			(uuid "0949b02f-912d-43c6-b415-e713189aba36")
-		)
-		(pin "B11"
-			(uuid "486f764f-c267-4673-914f-7aca547f3104")
+		(pin "1"
+			(uuid "10f51aae-8636-40df-8f91-cee199aa5c70")
 		)
 		(instances
 			(project "crietiva-mcu"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9221,7 +8793,7 @@
 				)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 41.91 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9308,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_\nP10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 151.638 90)
 			(hide yes)
 			(show_name no)
@@ -9351,6 +8923,84 @@
 			(project "crietiva-mcu"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 149.86 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcbe58a3-25f4-4d39-ad77-cc34704e08e1")
+		(property "Reference" "J5"
+			(at 118.745 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+			(at 119.38 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06a43082-2a1e-42fc-a7b1-a52eb2695780")
+		)
+		(instances
+			(project "crietiva-mcu"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9466,7 +9116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_\nP10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 192.532 90)
 			(hide yes)
 			(show_name no)
@@ -9595,6 +9245,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 176.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caa1fb2d-be7b-422d-abc7-b0fff05846f6")
+		(property "Reference" "J8"
+			(at 118.745 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+			(at 119.38 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0e21e69-bcdf-461d-b744-61ca2fe4c5e5")
+		)
+		(instances
+			(project "crietiva-mcu"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 91.44 82.55 0)
 		(unit 1)
@@ -9625,7 +9353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
 			(at 91.44 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9705,7 +9433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 174.752 90)
 			(hide yes)
 			(show_name no)
@@ -9832,6 +9560,161 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7fe5581-3694-4769-81f5-3c8ded3c7924")
+		(property "Reference" "J4"
+			(at 118.745 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+			(at 119.38 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30621cfc-f724-4a5c-8f3d-109ed9b7cda0")
+		)
+		(instances
+			(project "crietiva-mcu"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 194.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5effc83-96f9-4928-9e6d-083efe787b20")
+		(property "Reference" "J10"
+			(at 118.745 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
+			(at 119.38 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b117ebe-8700-49f9-929e-1d4fb935479e")
+		)
+		(instances
+			(project "crietiva-mcu"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 83.82 69.85 0)
 		(unit 1)
@@ -9914,84 +9797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 120.65 176.53 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9c4308e-818c-4732-add5-f5e84308212a")
-		(property "Reference" "J8"
-			(at 120.015 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 120.015 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 120.65 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 120.65 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb97aedd-d9a1-4165-acf8-a7aeeb882627")
-		)
-		(instances
-			(project "crietiva-mcu"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega328P-P")
 		(at 41.91 100.33 0)
 		(unit 1)
@@ -10022,7 +9827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm_Socket"
 			(at 41.91 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10181,7 +9986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_\nP10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 183.642 90)
 			(hide yes)
 			(show_name no)
